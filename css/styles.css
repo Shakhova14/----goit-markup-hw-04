@@ -150,7 +150,7 @@ color: var(--accent-color)
     background-size: cover;
     background-position: center;
     max-width: 1600px;
-    height: 600px;
+    
     
    color: #FFFFFF;
     text-align: center;
@@ -373,15 +373,14 @@ color: var(--secondary-text-color);
     fill: currentColor;
     /*fill: #AFB1B8;*/
 }
-.clients-logo:hover,
-.clients-logo:focus {
-    fill: var(--accent-color);
-}
+
 
 
 .clients .item:hover,
 .clients .item:focus {
     border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
 
 }
 
